@@ -1,0 +1,815 @@
+@motive: #ce0000;
+@secundary: #9b0506;
+
+
+
+a {
+  color: @motive;
+}
+
+/* Style Buttons */
+.btn{
+  border: 3px solid @motive;
+  color: @motive;
+}
+.btn:hover, .btn:active, .btn:focus{
+  background-color: @motive;
+  border-color: @motive;
+  color: #ffffff;
+}
+
+.btn-white{
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-color{
+  background-color: @motive;
+  border: 3px solid @motive;
+  color: #ffffff;
+  &:hover, &:active, &:focus{
+    background-color: @secundary;
+    border: 3px solid @secundary;
+  }
+}
+
+.btn-success{
+  border-color: #8dc153;
+  color: #8dc153;
+  &:hover{
+    border-color: #8dc153;
+    color: #ffffff;
+    background-color: #8dc153;
+  }
+}
+
+.btn-warning{
+  border-color: #ff7f00;
+  color: #ff7f00;
+  &:hover{
+    border-color: #ff7f00;
+    color: #ffffff;
+    background-color: #ff7f00;
+  }
+}
+
+.btn-info{
+  border-color: #1a9dd3;
+  color: #1a9dd3;
+  &:hover{
+    border-color: #1a9dd3;
+    color: #ffffff;
+    background-color: #1a9dd3;
+  }
+}
+
+.btn-inactive{
+  border-color: #bbbbbb;
+  color: #eeeeee;
+  background-color: #bbbbbb;
+  &:hover{
+    border-color: #bbbbbb;
+    color: #eeeeee;
+    background-color: #bbbbbb;
+  }
+}
+
+.btn-white:hover, .btn-white:active, .btn-white:focus{
+  border-color: #ffffff;
+  color: @motive;
+  background-color: #ffffff;
+}
+
+.btn-link{
+  border: none;
+  color: @motive;
+  &:hover{
+    border: none;
+    color: @secundary;
+    background-color: transparent;
+  }
+}
+
+.circle-button{
+  border: 2px solid @motive;
+  background-color: transparent;
+  color: @motive;
+}
+
+select{
+  border: 3px solid @motive;
+}
+/* End Style Buttons */
+
+blockquote:before{
+  color: @motive;
+}
+
+blockquote{
+  border-color: @motive;
+}
+
+.form-control:focus {
+  border-color: @motive;
+}
+
+.color-font{
+  color: @motive;
+}
+/* Header */
+
+.height100 .slogan{
+  color: #ffffff;
+  .square{
+    background-color: @motive;
+  }
+}
+/* End Header */
+
+/* Navigation */
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: @motive;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: @motive;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: @motive;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: @motive;
+}
+
+.navbar-middle .navbar-nav > .active > a, .navbar-middle .navbar-nav > .active > a:hover, .navbar-middle .navbar-nav > .active > a:focus {
+  color: @motive;
+}
+
+.navbar-middle .navbar-nav > li > a:hover, .navbar-middle .navbar-nav > li > a:focus {
+  color: @motive;
+}
+
+.navbar-default, .navbar-inverse{
+  .navbar-header{
+    background-color: @secundary;
+  }
+  .triangle{
+    border-color: transparent transparent transparent @secundary;
+  }
+  > li {
+    a:active, a:hover, a:focus{
+      border-bottom: 3px solid @motive;
+    }
+  }
+  .active{
+    a, a:active, a:hover, a:focus{
+      border-bottom: 3px solid @motive;
+    }
+    li{
+      a:active, a:hover, a:focus{
+        background: @motive !important;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.navbar-inverse{
+  &.remove-left-red{
+    .navbar-brand{
+      &:hover{
+        color: @motive;
+      }
+    }
+  }
+}
+
+.navbar-color{
+  background-color: @motive;
+  .navbar-header{
+    background-color: #000000;
+  }
+  .triangle{
+    border-color: transparent transparent transparent #ffffff;
+  }
+  &.remove-left-red{
+    .navbar-brand{
+      color: #ffffff;
+    }
+  }
+  a{
+    color: #ffffff;
+  }
+}
+
+.navbar-transparent{
+  > li {
+    a:active, a:hover, a:focus{
+      border-bottom: 3px solid @motive;
+      color: @motive;
+    }
+    &.active a{
+      color: @motive;
+    }
+  }
+  .active{
+    a, a:active, a:hover, a:focus{
+      border-bottom: 3px solid @motive;
+    }
+  }
+}
+
+.navbar-middle{
+  .nav.navbar-nav{
+    > li {
+      &.active{
+        > a{
+          color: @motive;
+        }
+      }
+      a:active, a:hover, a:focus{
+        border-bottom: 3px solid @motive;
+      }
+    }
+    .active{
+      a, a:active, a:hover, a:focus{
+        border-bottom: 3px solid @motive;
+      }
+      li{
+        a:active, a:hover, a:focus{
+          background: @motive !important;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.navbar .dropdown-menu > li > a, .navbar .dropdown-submenu > li > a {
+  &:hover, &:active, &:focus{
+    background-color: @motive;
+  }
+}
+
+.navbar .dropdown-menu > li.active > a {
+  color: @motive;
+  &:hover, &:active, &:focus{
+    color: @motive !important;
+  }
+}
+
+/* back to top link */
+#toTop{
+  &:hover{
+    background-color:@motive;
+  }
+}
+
+/* End Navigation */
+
+/* Sections */
+.color-row{
+  background-color: @secundary;
+}
+
+.quote{
+  .quote-mark-left{
+    color: @motive;
+  }
+  .quote-mark-right{
+    color: @motive;
+  }
+}
+
+/* Team */
+
+.team-container{
+  .person-image{
+    .person-hover{
+      background: rgba(206, 0, 0, 0.7);
+    }
+  }
+}
+
+/* progress bar */
+
+// Outer container
+.progress{
+  border: 2px solid @motive;
+  //Bar of progress
+}
+
+// COLORS
+// ------
+
+// Default (red)
+.progress .bar{
+  background: @motive !important;
+}
+
+
+#colorbox{
+  #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+    border: 2px solid @motive;
+    color: @motive;
+  }
+
+  #cboxPrevious{right:150px; left: auto}
+  #cboxNext{right:100px; left: auto}
+  #cboxClose{right:50px;}
+  #cboxPrevious:hover, #cboxNext:hover, #cboxClose:hover{
+    background-color: @motive;
+    color: #ffffff;
+  }
+}
+
+/* End Team */
+
+/* Services */
+.services, .price-list{
+  .services-box, .prices-box{
+    .price-container{
+      &.active{
+        background-color: @motive;
+      }
+    }
+  }
+  .services-box:hover{
+    background-color: @motive;
+    color: #ffffff;
+    border-color: @motive;
+
+    .circle-border-inside{
+      border: 10px solid @motive;
+    }
+  }
+}
+/* End Services */
+
+/* Blog */
+
+#wp-calendar{
+  thead{
+    background-color: @motive;
+    color: #ffffff;
+  }
+}
+
+.blog-pagination{
+  .pagination{
+    li{
+      border-color: @motive;
+    }
+    li a:hover{
+      border-bottom: 3px solid @motive;
+    }
+    .active{
+      a{
+        color: @motive;
+      }
+      a:hover{
+        border-bottom: 3px solid @motive;
+      }
+    }
+  }
+}
+
+.blog-pagination-single{
+  .pager{
+    a:hover{
+      color: @motive;
+    }
+  }
+}
+
+.blog-quote-mark{
+  color: @motive;
+}
+
+.blog-col, footer{
+  .search{
+    button{
+      color: @motive;
+    }
+  }
+}
+/* End Blog */
+
+
+/* 404 Page */
+
+.bug{
+  color: @motive;
+}
+
+
+.error404{
+  .error404-symbol{
+    color: @secundary;
+  }
+}
+
+/* End 404 Page */
+
+/* Faq */
+
+.faq-menu{
+  li{
+    &.active > a{
+      background-color: @motive;
+      color: #ffffff;
+    }
+  }
+}
+
+/* End Faq */
+
+/* End Sections */
+
+/* Elements */
+
+/* Breadcumbs */
+
+.breadcrumb{
+  li + li:before {
+    color: @motive;
+  }
+}
+
+/* Tabs */
+.nav-tabs.nav-justified {
+  li {
+    &.active a:before{
+      background-color: @motive;
+    }
+  }
+}
+
+
+.tabs-left > .nav-tabs li.active a:before{
+  background-color: @motive;
+}
+
+/* End Tabs */
+
+/* Begin accordion*/
+.panel-group{
+  .panel{
+    .panel-heading{
+      .panel-title{
+        a{
+          &:before{
+            color: @motive;
+          }
+        }
+      }
+    }
+    .panel-body{
+      border-left: 4px solid @motive;
+    }
+  }
+}
+/* End Accordion */
+
+/* Begin tables */
+
+.table-striped{
+  thead{
+    background-color: @motive;
+    color: #ffffff;
+    border-left: 2px solid @motive;
+  }
+}
+
+/* End tables */
+
+/* Media list */
+.media.feature-list{
+  .icon{
+    color: @motive;
+  }
+  .number{
+    color: @motive;
+  }
+}
+
+/* End media list */
+
+/* Begin Twitter */
+.tweets {
+  ul {
+    .tweet_name{
+      color: @motive;
+    }
+  }
+  .arrows{
+    .flex-direction-nav{
+      a:hover{
+        color: @motive;
+      }
+    }
+  }
+}
+
+/* End Twitter */
+
+/* -------------- SOCIAL ICONS -------------------*/
+  .circle-btn{
+    border: 2px solid @motive;
+    color: @motive;
+  }
+  .circle-btn:hover{
+    border-color: @motive;
+    background-color: @motive;
+  }
+
+#MainHeader, .social-top-fix, .color-row, .parallax, .top-info{
+    .circle-btn:hover{
+      color: @motive;
+    }
+  }
+
+
+/* -------------------- CIRCLE IMAGES ----------------------- */
+.circleBox{
+  .circle-border-outside{
+    position: relative;
+    border: 10px solid @motive;
+    .circle-triangle{
+      border-color: @motive transparent transparent transparent;
+    }
+  }
+}
+
+/* ------------------------- PIE CHARTS ------------------------ */
+
+.pie-chart {
+  > span {
+    color: @motive;
+  }
+}
+
+/* ------------------------ WORKS GALLERY ---------------------------- */
+
+.projects .project, .lightbox-image{
+  .image{
+    .item-hover{
+      .item-icons{
+        li{
+          a{
+            background-color:rgba(206,0,0,0.7);
+            color: #ffffff;
+          }
+        }
+        li:hover{
+          a{
+            color: @motive;
+          }
+        }
+      }
+    }
+  }
+}
+
+.portfolioFilter{
+  a{
+    border: 2px solid @motive;
+    color: @motive;
+  }
+  a:hover{
+    border: 2px solid @motive;
+    background-color: @motive;
+  }
+}
+
+/* ------------------------ GMAPS3 ---------------------------- */
+.map{
+  .googleMap{
+    .googleMap-description{
+      .googleMap-triangle{
+        border-color: transparent #b80000 transparent transparent;
+      }
+    }
+  }
+}
+
+/* ------------------------------------ d3.js ----------------------------------------- */
+
+.q0-9 { fill:rgb(252,247,247); }
+.q1-9 { fill:rgb(239,214,214); }
+.q2-9 { fill:rgb(226,183,183); }
+.q3-9 { fill:rgb(205,130,130); }
+.q4-9 { fill:rgb(180,69,69); }
+.q5-9 { fill:rgb(159,15,15); }
+.q6-9 { fill:rgb(130,5,5); }
+.q7-9 { fill:rgb(100,3,3); }
+.q8-9 { fill:rgb(69,2,2); }
+
+
+/* ------------------------------------ flex slider ----------------------------------------- */
+
+.flexslider{
+  .flex-direction-nav{
+    a:hover{
+      color: @motive;
+    }
+  }
+}
+
+.fullscreen-flexslider, .fullscreen-flexslider-ken-burns{
+  .flex-direction-nav{
+    a:hover{
+      color: @motive;
+    }
+  }
+}
+
+/* ------------------------------------ Parallax Slider 2 ----------------------------------------- */
+
+#MainHeader{
+  .content{
+    .container{
+      .table-align{
+        .middle-align{
+          .social-unit{
+            background-color: rgba(206, 0, 0, 0.5);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ------------------------------------ revolution slider ----------------------------------------- */
+
+.rev-slider{
+  .tp-caption{
+    a:hover, a:active, a:focus{
+      color: @motive;
+    }
+  }
+}
+
+
+/*******************************************************************************
+		-	BULLETS AND ARROWS ADD ONS TO THE EXISTING VERSION 	-
+*******************************************************************************/
+
+.tparrows:hover {
+  color: @motive !important;
+}
+
+/* End Elements */
+
+
+@media (min-width: 990px) {
+
+  .fullscreen-flexslider, .fullscreen-slider-slogan, .fullscreen-flexslider-ken-burns{
+    .flex-viewport{
+      height: 100% !IMPORTANT;
+    }
+  }
+
+  .navbar-middle{
+    .navbar-collapse.collapse {
+      text-align: center; /* Set this */
+      display: block !important;
+      height: auto !important;
+      padding-bottom: 0;
+      overflow: visible !important;
+    }
+    .navbar-nav {
+      display: inline-block;
+      float: none;
+      margin: 0;
+    }
+  }
+
+}
+
+
+@media (max-width: 990px) {
+  .navbar-default{
+    .navbar-header{
+      .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus{
+        .icon-bar{
+          background-color: @motive;
+        }
+      }
+    }
+    .navbar-collapse{
+      li {
+        .dropdown-menu{
+          li{
+            a:hover, a:active, a:focus{
+              background-color: @motive;
+            }
+          }
+        }
+      }
+      .open{
+        .dropdown-menu{
+          a:hover, a:active, a:focus{
+            color: @motive;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-inverse{
+    .navbar-header{
+      .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus{
+        .icon-bar{
+          background-color: @motive;
+        }
+      }
+    }
+    .navbar-collapse{
+      li {
+        .dropdown-menu{
+          li{
+            a:hover, a:active, a:focus{
+              background-color: @motive;
+            }
+          }
+        }
+      }
+      .open{
+        .dropdown-menu{
+          a:hover, a:active, a:focus{
+            color: @motive;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-color{
+    .navbar-header{
+      .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus{
+        .icon-bar{
+          background-color: @motive;
+        }
+      }
+    }
+    .navbar-collapse{
+      li {
+        a:hover, a:active, a:focus{
+          color: @motive;
+        }
+        .dropdown-menu{
+          li{
+            a:hover, a:active, a:focus{
+              background-color: @motive;
+            }
+          }
+        }
+      }
+      .open{
+        .dropdown-menu{
+          a:hover, a:active, a:focus{
+            color: @motive;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-transparent, .navbar-middle{
+    .navbar-header{
+      .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus{
+        .icon-bar{
+          background-color: @motive;
+        }
+      }
+    }
+    .navbar-collapse{
+      li {
+        a:hover, a:active, a:focus{
+          color: @motive;
+        }
+        .dropdown-menu{
+          li{
+            a:hover, a:active, a:focus{
+              background-color: @motive;
+            }
+          }
+        }
+      }
+      .open{
+        .dropdown-menu{
+          a:hover, a:active, a:focus{
+            color: @motive;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

@@ -11358,3 +11358,95 @@ footer .search button {
 .initAnimate .activate {
   opacity: 1;
 }
+
+/* Multilanguage */
+.side-options {
+  width: 200px;
+  left: -200px;
+  position: fixed;
+  z-index: 2000;
+  top: 120px;
+  background-color: #fff;
+
+  -webkit-transition: all ease-in-out 0.15s;
+  transition: all ease-in-out 0.15s;
+}
+.side-options.side-options-right {
+  left: auto;
+  right: -200px;
+}
+  .side-options .side-options-heading {
+    cursor: pointer;
+    background-color: #2d343e;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding:0 15px;
+    color: #ccc;
+    display: block;
+    margin-right: -50px;
+    padding-right: 0;
+ 
+    -webkit-transition: all ease-in-out 0.15s;
+    transition: all ease-in-out 0.15s;
+  }
+  .side-options.open .side-options-heading {
+    margin-right: 0;
+  }
+    .side-options .side-options-heading a {
+      line-height: 50px;
+      color: #ccc;
+      width: 100%;
+      display: inline-block;
+    }
+      .side-options .side-options-heading span {
+        color: #fff;
+        font-weight: 700;
+        display: inline-block;
+        width: 50px;
+        text-align: center;
+        float: right;
+      }
+      .side-options .side-options-heading span i {
+        font-size: 20px;
+        line-height: 1;
+        display: block;
+        margin-top: 16px;
+        font-weight: normal;
+      }
+.side-options.open {
+  left: 0;
+}
+.side-options.side-options-right.open {
+  left: auto;
+  right: 0;
+}
+  .side-options.side-options-right .side-options-heading {
+    margin-right: auto;
+    margin-left: -50px;
+    padding-left: 0;
+  }
+  .side-options.side-options-right.open .side-options-heading {
+    margin-left: 0;
+  }
+    .side-options.side-options-right .side-options-heading span {
+      float: left;
+    }
+
+/* Language */
+#language-options .language-list {
+  list-style-type: none;
+  margin: 0;
+  border: 1px solid #f1f1f1;
+  border-right: none;
+  border-top: none;
+}
+#language-options .language-list li a {
+  padding: 15px;
+  display: block;
+  text-transform: uppercase;
+  color: #2d343e;
+}
+#language-options .language-list li a:hover,
+#language-options .language-list li a.current {
+  background-color: #f9f9f9;
+}

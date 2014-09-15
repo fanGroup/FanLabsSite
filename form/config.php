@@ -4,11 +4,11 @@
  */
 
 //where we would like to send email
-$recipientEmail = 'recipient@mail.com';
+$recipientEmail = 'contacto@fanlabs.com.ar';
 $recipientName = 'Recipient Name';
 
 //Address which will be visible in "From" field
-$fromEmail = 'donotreply@mail.com';
+$fromEmail = 'contacto@fanlabs.com.ar';
 $fromName = 'Site Admnistrator';
 
 //Validation error messages

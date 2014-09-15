@@ -675,3 +675,19 @@ jQuery(document).ready(function () {
         }
     });
 });
+
+//Language option
+$('.side-options-heading a').on('click', function() {
+    $(this).closest('.side-options').toggleClass('open');
+    return false;
+});   
+
+$('#language-options .language-list a').on('click', function() {
+    var $that = $(this),
+        language = $that.data('abbr');
+    if ($that.attr('href') == '#') {
+        $('#language-options .current-language').text(language);
+        $that.addClass('current').parent().siblings().children().removeClass('current').closest('.side-options').removeClass('open');
+        return false;
+    }
+});

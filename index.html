@@ -384,9 +384,9 @@
     <a href="#"><span class="current-language">EN</span>Language</a>
 </div>
 <div class="side-options-content">
-    <ul class="language-list">
-        <li><a class="current" href="#" data-abbr="EN">English</a></li>
-        <li><a href="#" data-abbr="SP">Spanish</a></li>        
+    <ul  class="language-list">
+        <li><button id="en" class="lang">EN</button></li>
+        <li><button id="es" class="lang">ES</button></li>        
     </ul>
 </div>
 </aside>
@@ -460,12 +460,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-            <li class="onepage"><a href="#MainHeader">Home</a></li>
-            <li class="onepage"><a href="#about-us">About Us</a></li>
-            <li class="onepage"><a href="#team">Team</a></li>
-            <li class="onepage"><a href="#services">Services</a></li>
-            <li class="onepage"><a href="#portfolio">Portfolio</a></li>
-            <li class="onepage"><a href="#contact-us">Contact Us</a></li>
+            <li class="onepage"><a href="#MainHeader" key="home" class="translate">Home</a></li>
+            <li class="onepage"><a href="#about-us"  key="aboutUs" class="translate">About Us</a></li>
+            <li class="onepage"><a href="#team"      key="team" class="translate">Team</a></li>
+            <li class="onepage"><a href="#services"   key="services" class="translate">Services</a></li>
+            <li class="onepage"><a href="#portfolio"  key="portfolio" class="translate">Portfolio</a></li>
+            <li class="onepage"><a href="#contact-us" key="contactUs" class="translate">Contact Us</a></li>
         </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -1430,5 +1430,7 @@
     <script src="./js/less.min.js"></script>
     <script src="./js/jquery.countTo.js"></script>
     <script src="./js/jquery.appear.js"></script>
+	<script src="./js/translate.js"></script>
+
 </body>
 </html>

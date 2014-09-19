@@ -384,9 +384,9 @@
     <a href="#"><span class="current-language">EN</span>Language</a>
 </div>
 <div class="side-options-content">
-    <ul class="language-list">
-        <li><a class="current" href="#" data-abbr="EN">English</a></li>
-        <li><a href="#" data-abbr="SP">Spanish</a></li>        
+    <ul  class="language-list">
+        <li><button id="en" class="lang">EN</button></li>
+        <li><button id="es" class="lang">ES</button></li>        
     </ul>
 </div>
 </aside>
@@ -460,12 +460,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-            <li class="onepage"><a href="#MainHeader">Home</a></li>
-            <li class="onepage"><a href="#about-us">About Us</a></li>
-            <li class="onepage"><a href="#team">Team</a></li>
-            <li class="onepage"><a href="#services">Services</a></li>
-            <li class="onepage"><a href="#portfolio">Portfolio</a></li>
-            <li class="onepage"><a href="#contact-us">Contact Us</a></li>
+            <li class="onepage"><a href="#MainHeader" key="home" class="translate">Home</a></li>
+            <li class="onepage"><a href="#about-us"  key="aboutUs" class="translate">About Us</a></li>
+            <li class="onepage"><a href="#team"      key="team" class="translate">Team</a></li>
+            <li class="onepage"><a href="#services"   key="services" class="translate">Services</a></li>
+            <li class="onepage"><a href="#portfolio"  key="portfolio" class="translate">Portfolio</a></li>
+            <li class="onepage"><a href="#contact-us" key="contactUs" class="translate">Contact Us</a></li>
         </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -477,8 +477,16 @@
 </div>
 
 <div id="about-us" class="container padding-medium text-center chapter">
-    <h2>We are <span class="color-font light">FanLabs</span></h2>
-    <h5>We are a close team of <span class="color-font">creatives, designers & developers </span>who work together to create beautiful, engaging digital experiences. We enjoy finding solutions to  <span class="color-font">your problems.</span></h5>
+    <h2>
+        <span key="aboutus1" class="translate">We are </span>
+        <span key="aboutus2" class="translate color-font light">FanLabs</span>
+    </h2>
+    <h5>
+        <span key="aboutus3" class="translate">We are a close team of </span>
+        <span key="aboutus4" class="translate color-font">creatives, designers & developers </span>
+        <span key="aboutus5" class="translate">who work together to create beautiful, engaging digital experiences. We enjoy finding solutions to  </span>
+        <span key="aboutus6" class="translate color-font">your problems.</span>
+    </h5>
 </div>
 
 <div class="container">
@@ -487,35 +495,36 @@
 
 <div class="light-gray-row">
     <div class="container padding-small text-center">
-        <h3>What do <span class="color-font">we</span> <span class="light">actually do?</span></h3>        
+        <h3>
+            <span key="aboutus7" class="translate">What do </span>
+            <span key="aboutus8" class="translate color-font">we</span> 
+            <span key="aboutus9" class="translate light">actually do?</span>
+        </h3>        
 
         <div class="row padding-top-small animated" data-fx="fadeInUp">
             <div class="col-md-12">
                 <h5><span class="color-font">Fan's</span> Skills</h5>
-
                 <div class="progress alternative" data-percentage="20">
-                    <span class="bar-info">Web Design</span>
+                    <span key="aboutus10" class="translate bar-info">Web Design</span>
                     <div class="bar" style="width: 85%;"></div>
                 </div>
 
                 <div class="progress alternative" data-percentage="40">
-                    <span class="bar-info">Programming</span>
+                    <span key="aboutus11" class="translate bar-info">Programming</span>
                     <div class="bar" style="width: 95%;"></div>
                 </div>
 
                 <div class="progress alternative" data-percentage="40">
-                    <span class="bar-info">UI / UX</span>
+                    <span key="aboutus12" class="translate bar-info">UI / UX</span>
                     <div class="bar" style="width: 80%;"></div>
                 </div>
 
                 <div class="progress alternative" data-percentage="60">
-                    <span class="bar-info">Fun</span>
+                    <span key="aboutus13" class="translate bar-info">Fun</span>
                     <div class="bar" style="width: 100%;"></div>
                 </div>
             </div>
         </div>
-
-
     </div>
 </div>
 
@@ -524,7 +533,9 @@
 
 <div class="dark-gray-row">
     <div class="container text-center padding-small">
-        <h3>Our <span class="color-font">Strategy</span></h3>
+        <h3>
+            <span key="aboutus14" class="translate">Our </span>
+            <span key="aboutus15" class="translate color-font">Strategy</span></h3>
         
         <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -534,23 +545,24 @@
             </ol><!-- /.carousel-indicators -->
             <div class="carousel-inner">
                 <div class="item active">                  
-                    <h5><b>Responsibility</b></h5>       
+                    <h5><b><span key="aboutus16" class="translate">Responsibility</span></b></h5>       
                     <i class="fa fa-coffee fa-5x"></i>                
-                    <p>We only work with very responsible developers, who will give the most of them to achieve the best results possible.</p>
-                    <br>                    
-                    <p style="margin-left:185px;"><span><p style="color: #7FBA00;">#responsability #convictions #belies #force</p></span>                                    
+                    <p key="aboutus17" class="translate">We only work with very responsible developers, who will give the most of them to achieve the best results possible.</p>
+                    <br>                                        
+                    <p style="margin-left:185px;"><span><p style="color: #7FBA00;">#responsability #convictions #belies #force</p></span>
+                    </p>                                    
                 </div>
                 <div class="item">                  
-                    <h5><b>Team Working</b></h5>                    
+                    <h5><b><span key="aboutus18" class="translate">Team Working</span></b></h5>                    
                     <i style="margin-top:4px;" class="fa fa-trophy fa-5x"></i>                  
-                    <p>We have co-located teams that will work together in your project. Communication is one of the keys of success in Agile projects, so we need highly comunnicated teams, with very good soft skills.</p>                
+                    <p key="aboutus19" class="translate">We have co-located teams that will work together in your project. Communication is one of the keys of success in Agile projects, so we need highly comunnicated teams, with very good soft skills.</p>                
                     <p style="margin-left:185px;"><span><p style="color: #7FBA00;">#team #working #friends #fun #love</p></span>
                     </p>
                 </div>
                 <div class="item">                                                                  
-                    <h5><b>Innovation</b></h5>                    
+                    <h5><b><p key="aboutus20" class="translate">Innovation</p></b></h5>                    
                     <i style="margin-top:4px;" class="fa fa-magic fa-5x"></i>                   
-                    <p>We know that each application can be improved. We work with you not only to develop your application, but to give some ideas about how your application could be better. We want your success, because that's our success.</p>            
+                    <p key="aboutus21" class="translate">We know that each application can be improved. We work with you not only to develop your application, but to give some ideas about how your application could be better. We want your success, because that's our success.</p>            
                     <p style="margin-left:185px;"><span><p style="color: #7FBA00;">#ideas #inspiration #creativity #design #forefront</p></span>                  
                 </div>
             </div>
@@ -562,7 +574,10 @@
 </div>
 
 <div class="container padding-small text-center">
-    <h3><span class="color-font">FanLabs </span> in numbers</h3>
+    <h3>
+        <span key="aboutus22" class="translate" class="color-font">FanLabs </span> 
+        <span key="aboutus23" class="translate">in numbers</span>
+    </h3>
 
     <div class="row padding-small">
         <div class="col-md-3 col-sm-3">
@@ -575,7 +590,7 @@
                     0
                 </span>
                     <hr>
-                <span class="description">
+                <span key="aboutus24" class="translate description">
                     Cups of Coffee
                 </span>
             </div>
@@ -590,7 +605,7 @@
                     0
                 </span>
                     <hr>
-                <span class="description">
+                <span key="aboutus25" class="translate description">
                     Thermo of Mate
                 </span>
             </div>
@@ -605,7 +620,7 @@
                     0
                 </span>
                     <hr>
-                <span class="description">
+                <span key="aboutus26" class="translate description">
                     Beers
                 </span>
             </div>
@@ -620,7 +635,7 @@
                 0
             </span>
                 <hr>
-            <span class="description">
+            <span key="aboutus2" class="translate description">
                 Chess Game
             </span>
             </div>
@@ -632,7 +647,7 @@
 
 </div>
 
-<div id="Parallax1" class="parallax padding-big" style="background-image: url('./images/content/parallax6.jpg')">
+<div id="Parallax1" class="parallax padding-big" style="background-image: url('./images/content/parallax6.png')">
     <div class="container text-center animated" data-fx="bounceIn">
         <p class="h3 quote">
             <i class="fa fa-quote-left quote-mark-left"></i>
@@ -648,9 +663,21 @@
 </div>
 
 <div id="team" class="container padding-medium text-center chapter">
-    <h2>Our <span class="color-font light">Team</span></h2>
+    <h2>
+        <span key="team1" class="translate">Our </span>
+        <span key="team2" class="translate color-font light">Team</span>
+    </h2>
 
-    <h5>We're a <span class="color-font">team</span> that <span class="color-font">love</span> what we do!. We have different skills and we merge this skills to <span class="color-font">create</span> a software <span class="color-font">robust, dynamic and friendly.</span></h5>
+    <h5>
+        <span key="team3" class="translate">We're a </span>
+        <span key="team4" class="translate color-font">team</span>
+        <span key="team5" class="translate"> that </span>
+        <span key="team6" class="translate color-font">love</span>
+        <span key="team7" class="translate"> what we do!. We have different skills and we merge this skills to </span>
+        <span key="team8" class="translate color-font">create</span>
+        <span key="team9" class="translate"> a software </span>
+        <span key="team10" class="translate color-font">robust, dynamic and friendly.</span>
+    </h5>
 </div>
 <div class="container">
 </div>
@@ -658,19 +685,23 @@
 <div class="light-gray-row">
     <div class="container padding-small text-center">
         <!--h4>MEET THE <span class="color-font">TEAM</span></h4-->
-        <h4><span class="color-font">We </span>are the <span class="color-font">team</span></h4>        
+        <h4>
+            <span key="team11" class="translate color-font">We </span>
+            <span key="team12" class="translate">are the </span>
+            <span key="team13" class="translate color-font">team</span>
+        </h4>        
         <div class="row team-container padding-top-small">
             <div class="col-md-4 col-sm-4">
                 <div class="person-image">
                     <div class="person-hover">
                         <div class="content">
-                            <a href="francoprofile.html" class="team ajax-call btn btn-white">Full Profile</a>
+                            <a href="francoprofile.html" class="team ajax-call btn btn-white"><span key="team14" class="translate">Full Profile</span></a>
                         </div>
                     </div>
                     <img src="./images/team/gringo.jpg" alt="" height="303" width="303">                    
                 </div>
                 <h5>Franco G. Riberi</h5>
-                <span class="color-font light">Co-Founder & Developer</span>
+                <span key="team15" class="translate color-font light">Co-Founder & Developer</span>
                 <div class="social">
                     <ul>
                         <li>
@@ -701,13 +732,13 @@
                 <div class="person-image">
                     <div class="person-hover">
                         <div class="content">
-                            <a href="nicolasprofile.html" class="team ajax-call btn btn-white">Full Profile</a>
+                            <a href="nicolasprofile.html" class="team ajax-call btn btn-white"><span key="team14" class="translate">Full Profile</span></a>
                         </div>
                     </div>
                     <img src="./images/team/nico.jpg" alt="" height="303" width="303">
                 </div>
                 <h5>Nicolas M. Bettiol</h5>    
-                <span class="color-font light">Co-Founder & Developer</span>
+                <span key="team15" class="translate color-font light">Co-Founder & Developer</span>
                 <div class="social">
                     <ul>
                         <li>
@@ -739,13 +770,13 @@
                 <div class="person-image">
                     <div class="person-hover">
                         <div class="content">
-                            <a href="aguprofile.html" class="team ajax-call btn btn-white">Full Profile</a>
+                            <a href="aguprofile.html" class="team ajax-call btn btn-white"><span key="team14" class="translate">Full Profile</span></a>
                         </div>
                     </div>
                     <img src="./images/team/agu.jpg" alt="" height="303" width="303">
                 </div>
                 <h5>Agustin Varea</h5>
-                <span class="color-font light">Co-Founder & Developer</span>
+                <span key="team15" class="translate color-font light">Co-Founder & Developer</span>
                 <div class="social">
                     <ul>
                         <li>
@@ -845,7 +876,7 @@
 <div class="container">
 </div>
 
-<div id="Parallax2" class="parallax padding-big" style="background-image: url('./images/content/parallax8.jpg')">
+<div id="Parallax2" class="parallax padding-big" style="background-image: url('./images/content/parallax8.png')">
     <div class="container text-center animated" data-fx="bounceIn">
         <p class="h3 quote">
             <i class="fa fa-quote-left quote-mark-left"></i>
@@ -861,9 +892,16 @@
 </div>
 
 <div id="services" class="container text-center padding-medium chapter">
-    <h2>Our <span class="color-font light">Services</span></h2>
-    <h5>At FanLabs we want to offer widest and the <span class="color-font">most efficient services</span> to your
-        company.</h5>
+    <h2>
+        <span key="service7" class="translate">Our </span>
+        <span key="service8" class="translate color-font light">Services</span>
+    </h2>
+    <h5>
+        <span key="service9" class="translate">At FanLabs we want to offer widest and the </span>
+        <span key="service10" class="translate color-font">most efficient services</span>
+        <span key="service11" class="translate"> to your
+        company.</span>
+    </h5>
 </div>
 
 <div class="container">
@@ -889,10 +927,10 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h5>
+                            <h5 key="serviceTitle1" class="translate">
                                 Development
                             </h5>
-                            <p>We are a strong and experienced team, capable of developing any application using most advanced technologies.</p>     
+                            <p key="service1" class="translate">We are a strong and experienced team, capable of developing any application using most advanced technologies.</p>     
                         </div>
                     </div>
                 </div>
@@ -911,10 +949,10 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h5>
+                            <h5 key="serviceTitle2" class="translate">
                                 Web Application
                             </h5>                           
-                            <p>We design and develop custom web applications that deliver the experience our customers want.</p>       
+                            <p key="service2" class="translate">We design and develop custom web applications that deliver the experience our customers want.</p>       
                         </div>
                     </div>
                 </div>
@@ -933,10 +971,10 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h5>
+                            <h5 key="serviceTitle3" class="translate">
                                 Responsive Design
                             </h5>                            
-                            <p>
+                            <p key="service3" class="translate">
                             We use responsive web design techniques to build a single website that adapts to multiple screen resolutions.</p> 
                         </div>
                     </div>
@@ -960,10 +998,10 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h5>
+                            <h5 key="serviceTitle4" class="translate">
                                 Clean Code
                             </h5>
-                            <p style="margin-bottom:35px;">We work looking for the highest quality and performance in all our developments.</p>
+                            <p style="margin-bottom:35px;" key="service4" class="translate">We work looking for the highest quality and performance in all our developments.</p>
                         </div>
                     </div>
                 </div>
@@ -982,10 +1020,10 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h5>
+                            <h5 key="serviceTitle5" class="translate">
                                 Personalize
                             </h5>
-                            <p>We’ll work with you to explore new ideas, lovingly designed products & services and delightful user experiences.</p>
+                            <p key="service5" class="translate">We'll work with you to explore new ideas, lovingly designed products & services and delightful user experiences.</p>
                         </div>
                     </div>
                 </div>
@@ -1004,10 +1042,10 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h5>
+                            <h5 key="serviceTitle6" class="translate">
                                 Creative Idea
                             </h5>
-                            <p>We work with you not only to develop your application, but to give some ideas about how your application could be better.</p>
+                            <p key="service6" class="translate">We work with you not only to develop your application, but to give some ideas about how your application could be better.</p>
                         </div>
                     </div>
                 </div>
@@ -1023,12 +1061,15 @@
 
 <div class="dark-gray-row">
     <div class="container text-center padding-small">
-        <h4><span class="color-font">Go on,</span> contact us! </h4>
+        <h4>
+            <span key="contactus1" class="translate color-font">Go on,</span> 
+            <span key="contactus2" class="translate"> contact us! </span>
+        </h4>
 
 <!-- <div class="container text-center padding-small">
         <h4>We have <span class="color-font">worked</span> <span class="light">with these companies</span></h4>
     </div> -->
-        <a href="#contact-us" class="btn btn-white btn-lg btn-scroll btn-top-margin">Read More</a>
+        <a href="#contact-us" key="contactus3" class="translate btn btn-white btn-lg btn-scroll btn-top-margin">Read More</a>
     </div>
 </div>
 
@@ -1036,7 +1077,7 @@
 
 </div>
 
-<div id="Parallax3" class="parallax padding-big" style="background-image: url('./images/content/parallax9.jpg')">
+<div id="Parallax3" class="parallax padding-big" style="background-image: url('./images/content/parallax9.png')">
     <div class="container">
         <div class="media-with-icon animated" data-fx="bounceInRight">
             <div class="icon">
@@ -1044,8 +1085,11 @@
             </div>
             <div class="media-body">
                 <div class="col-md-12">
-                    <h4>Send us your email and we will <span class="color-font">contact you.</span></h4>
-                    <p class="h3">Join Us!</p>
+                    <h4>
+                        <span key="service12" class="translate">Send us your email and we will </span>
+                        <span key="service13" class="translate color-font">contact you.</span>
+                    </h4>
+                    <p key="service14" class="translate h3">Join Us!</p>
                 </div>
 
                 <div class="successMessage alert alert-success" style="display: none">
@@ -1064,7 +1108,7 @@
                                    placeholder="Your E-mail">
                         </div>
                         <div class="col-sm-3 col-xs-12">
-                            <button type="submit" class="btn btn-white btn-lg btn-block">Send</button>
+                            <button type="submit" key="service15" class="translate btn btn-white btn-lg btn-block">Send</button>
                         </div>
                     </div>
                 </form>
@@ -1196,7 +1240,7 @@
 
 </div>
 
-<div id="Parallax4" class="parallax padding-big" style="background-image: url('./images/content/parallax7.jpg')">
+<div id="Parallax4" class="parallax padding-big" style="background-image: url('./images/content/parallax7.png')">
    <div class="container text-center animated" data-fx="bounceIn">
         <p class="h3 quote">
             <i class="fa fa-quote-left quote-mark-left"></i>
@@ -1373,5 +1417,7 @@
     <script src="./js/less.min.js"></script>
     <script src="./js/jquery.countTo.js"></script>
     <script src="./js/jquery.appear.js"></script>
+	<script src="./js/translate.js"></script>
+
 </body>
 </html>

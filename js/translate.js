@@ -34,6 +34,22 @@ $(document).ready(function() {
 	aLangKeys['en']['contactus1']='Go on,';
 	aLangKeys['en']['contactus2']=' contact us!';
 	aLangKeys['en']['contactus3']='Read More';
+	aLangKeys['en']['team1']='Our ';
+	aLangKeys['en']['team2']='Team';
+	aLangKeys['en']['team3']='We are a ';
+	aLangKeys['en']['team4']='team';
+	aLangKeys['en']['team5']=' that ';
+	aLangKeys['en']['team6']='love';
+	aLangKeys['en']['team7']=' what we do!. We have different skills and we merge this skills to ';
+	aLangKeys['en']['team8']='create';
+	aLangKeys['en']['team9']=' a software ';
+	aLangKeys['en']['team10']='robust, dynamic and friendly.';
+	aLangKeys['en']['team11']='We ';
+	aLangKeys['en']['team12']='are the ';
+	aLangKeys['en']['team13']='team';
+	aLangKeys['en']['team14']='Full Profile';
+	aLangKeys['en']['team15']='Co-Founder & Developer';
+	
 
 	//Spanish
 	aLangKeys['es']['home']='Principal';
@@ -66,6 +82,21 @@ $(document).ready(function() {
 	aLangKeys['es']['contactus1']='Adelante,';
 	aLangKeys['es']['contactus2']=' contactános!!';
 	aLangKeys['es']['contactus3']='Leer Más';
+	aLangKeys['es']['team1']='Nuestro ';
+	aLangKeys['es']['team2']='Equipo';
+	aLangKeys['es']['team3']='Somos un ';
+	aLangKeys['es']['team4']='equipo';
+	aLangKeys['es']['team5']=' que ';
+	aLangKeys['es']['team6']='amamos';
+	aLangKeys['es']['team7']=' lo que hacemos!. Contamos con diferentes habilidades y fusionamos estas habilidades para ';
+	aLangKeys['es']['team8']='crear';
+	aLangKeys['es']['team9']=' un software ';
+	aLangKeys['es']['team10']='robusto, dinámico and amigable.';
+	aLangKeys['es']['team11']='Nosotros ';
+	aLangKeys['es']['team12']='somos el ';
+	aLangKeys['es']['team13']='equipo';
+	aLangKeys['es']['team14']='Perfil Completo';
+	aLangKeys['es']['team15']='Co-Fundador & Programador';
 
     $('.lang').click( function() {
         var lang = $(this).attr('id'); // obtain language id

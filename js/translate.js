@@ -4,12 +4,30 @@ $(document).ready(function() {
 	aLangKeys['es']=new Array();
 
 	//English
+	
+	
 	aLangKeys['en']['home']='Home';
 	aLangKeys['en']['aboutUs']='About Us';
 	aLangKeys['en']['team']='Team';
 	aLangKeys['en']['services']='Services';
 	aLangKeys['en']['portfolio']='Portfolio';
 	aLangKeys['en']['contactUs']='Contact Us';	
+	
+	aLangKeys['en']['slayer11']='growth';
+	aLangKeys['en']['slayer12']='development';
+	aLangKeys['en']['slayer13']='experience';
+	
+	aLangKeys['en']['slayer21']='We are ';
+	aLangKeys['en']['slayer22']='continuosly';
+	aLangKeys['en']['slayer23']='working on ';
+	aLangKeys['en']['slayer24']='making';
+	aLangKeys['en']['slayer25']='FanLabs better';
+	
+	aLangKeys['en']['slayer31']='With';
+	aLangKeys['en']['slayer32']='FanLabs on board';
+	aLangKeys['en']['slayer34']='you will';
+	aLangKeys['en']['slayer35']='make your business run smooth';
+	
 	aLangKeys['en']['aboutus1']='We are ';	
 	aLangKeys['en']['aboutus2']='FanLabs';	
 	aLangKeys['en']['aboutus3']='We are a close team of ';	
@@ -77,8 +95,36 @@ $(document).ready(function() {
 	aLangKeys['en']['team14']='Full Profile';
 	aLangKeys['en']['team15']='Co-Founder & Developer';
 	
+	aLangKeys['en']['contact-us1']='Contact';
+	aLangKeys['en']['contact-us1']='Us';
+	
+	aLangKeys['en']['contact-us2_1']='We are currently';
+	aLangKeys['en']['contact-us2_2']='accepting';
+	aLangKeys['en']['contact-us2_3']='new client projects';
+	aLangKeys['en']['contact-us2_4']='We';
+	aLangKeys['en']['contact-us2_5']='look forward to serving you.';
+	aLangKeys['en']['contact-us2_6']='Feel free';
+	aLangKeys['en']['contact-us2_7']='to ask your questions in the most convenient way for you.';
+	
+	aLangKeys['en']['sendEmail1']='Do you have any';
+	aLangKeys['en']['sendEmail2']='idea';
+	aLangKeys['en']['sendEmail3']='in mind';
+	aLangKeys['en']['sendEmail4']='Contact us';
+	aLangKeys['en']['sendEmail5']='we will give you the answer you expect.';
+	aLangKeys['en']['formSendMessage']='Send Message';
+	
+	aLangKeys['en']['ourworktitle1']='Our';
+	aLangKeys['en']['ourworktitle2']='Works';
+	
+	aLangKeys['en']['ourworkphrase1']='Nothing in the world worthwhile is achieved without';
+	aLangKeys['en']['ourworkphrase2']='passion';
+	
+	aLangKeys['en']['phrase1']='Science is what we understand well enough to explain to a computer. Art is everything else we do.';
+	aLangKeys['en']['phrase2']='Good programmers use their brains, but good guidelines save us having to think out every case.';
+	aLangKeys['en']['phrase3']='You can’t have great software without a great team, and most software teams behave like dysfunctional families.';
 
-	//Spanish
+//Spanish
+	
 	aLangKeys['es']['home']='Principal';
 	aLangKeys['es']['aboutUs']='Sobre nosotros';
 	aLangKeys['es']['team']='Nosotros';
@@ -86,6 +132,20 @@ $(document).ready(function() {
 	aLangKeys['es']['portfolio']='Portfolio';
 	aLangKeys['es']['contactUs']='Contacto';
 
+	aLangKeys['es']['slayer11']='crecimiento';
+	aLangKeys['es']['slayer12']='desarrollo';
+	aLangKeys['es']['slayer13']='experiencia';
+	
+	aLangKeys['es']['slayer21']='Estamos';
+	aLangKeys['es']['slayer22']='continuamente';
+	aLangKeys['es']['slayer23']='trabajando en';
+	aLangKeys['es']['slayer24']='hacer';
+	aLangKeys['es']['slayer25']='un mejor FanLabs';
+	
+	aLangKeys['es']['slayer31']='Con';
+	aLangKeys['es']['slayer32']='FanLabs';
+	aLangKeys['es']['slayer34']='vas';
+	aLangKeys['es']['slayer35']='a lograr que tu negocio avance';
 
 	aLangKeys['es']['aboutus1']='Nosotros somos ';	
 	aLangKeys['es']['aboutus2']='FanLabs';	
@@ -93,9 +153,9 @@ $(document).ready(function() {
 	aLangKeys['es']['aboutus4']='creativos, diseñadores y programadores ';	
 	aLangKeys['es']['aboutus5']='que trabajamos juntos para crear un hermosa solución. Nosotros disfrutamos encontrar soluciones para ';	
 	aLangKeys['es']['aboutus6']='tus problemas.';	
-	aLangKeys['es']['aboutus7']='What do ';	
-	aLangKeys['es']['aboutus8']='we';	
-	aLangKeys['es']['aboutus9']='actually do?';	
+	aLangKeys['es']['aboutus7']='¿Que hacemos ';	
+	aLangKeys['es']['aboutus8']='nosotros';	
+	aLangKeys['es']['aboutus9']='en la actualidad?';	
 	aLangKeys['es']['aboutus10']='Diseño Web';
 	aLangKeys['es']['aboutus11']='Programación';
 	aLangKeys['es']['aboutus12']='UI/UX';
@@ -105,9 +165,9 @@ $(document).ready(function() {
 	aLangKeys['es']['aboutus16']='Responsabilidad';	
 	aLangKeys['es']['aboutus17']='Nosotros sólo trabajamos con desarrolladores muy responsables, que le darán lo mejor de si para lograr los mejores resultados posibles.';
 	aLangKeys['es']['aboutus18']='Trabajo en Equipo';
-	aLangKeys['es']['aboutus19']='We have co-located teams that will work together in your project. Communication is one of the keys of success in Agile projects, so we need highly comunnicated teams, with very good soft skills.';
+	aLangKeys['es']['aboutus19']='Tenemos equipos que trabajarán juntos en su proyecto. La comunicación es una de las claves del éxito en los proyectos ágiles';
 	aLangKeys['es']['aboutus20']='Innovación';
-	aLangKeys['es']['aboutus21']='We know that each application can be improved. We work with you not only to develop your application, but to give some ideas about how your application could be better. We want your success, because that is our success.';
+	aLangKeys['es']['aboutus21']='Sabemos que cada aplicación puede ser mejorada. Trabajamos con usted no sólo para desarrollar la aplicación, sino para dar algunas ideas acerca de cómo su aplicación podría ser mejor. Queremos que su éxito, porque ese es nuestro éxito.,';
 	aLangKeys['es']['aboutus22']='FanLabs ';
 	aLangKeys['es']['aboutus23']='en Números';
 	aLangKeys['es']['aboutus24']='Tazas de Café';
@@ -153,6 +213,36 @@ $(document).ready(function() {
 	aLangKeys['es']['team13']='equipo';
 	aLangKeys['es']['team14']='Perfil Completo';
 	aLangKeys['es']['team15']='Co-Fundador & Programador';
+	
+	aLangKeys['es']['contact-us1']='Contacta';
+	aLangKeys['es']['contact-us2']='con Nosotros';
+	
+	aLangKeys['es']['contact-us2_1']='Actualmente estamos';
+	aLangKeys['es']['contact-us2_2']='aceptando';
+	aLangKeys['es']['contact-us2_3']='nuevos proyectos';
+	aLangKeys['es']['contact-us2_4']='Esperamos';
+	aLangKeys['es']['contact-us2_5']='brindarle nuestro servicio.';
+	aLangKeys['es']['contact-us2_6']='Sientase libre';
+	aLangKeys['es']['contact-us2_7']='de preguntar de la forma mas conveniente para usted.';
+	
+	aLangKeys['es']['sendEmail1']='¿Tienes alguna';
+	aLangKeys['es']['sendEmail2']='idea';
+	aLangKeys['es']['sendEmail3']='en mente?';
+	aLangKeys['es']['sendEmail4']='Contacta con nosotros';
+	aLangKeys['es']['sendEmail5']='que tenemos la respuesta que usted esta esperando';
+	aLangKeys['es']['formSendMessage']='Enviar mensaje';
+	
+	aLangKeys['es']['ourworktitle1']='Nuestros';
+	aLangKeys['es']['ourworktitle2']='Trabajos';
+	
+	aLangKeys['es']['ourworkphrase1']='Nada en el mundo vale la pena si se consigue sin';
+	aLangKeys['es']['ourworkphrase2']='pasion';
+
+	aLangKeys['es']['phrase1']='La ciencia es lo que entendemos suficientemente bien como para explicar a un ordenador. Arte es todo lo que hacemos.';
+	aLangKeys['es']['phrase2']='Los buenos programadores usan sus cerebros, pero buenas pautas a ahorrar nosotros tener que pensar en todos los casos.';
+	aLangKeys['es']['phrase3']='No se puede tener un gran software sin un gran equipo, y la mayoría de los equipos de software se comportan como familias disfuncionales.';
+
+
 
     $('.lang').click( function() {
         var lang = $(this).attr('id'); // obtain language id

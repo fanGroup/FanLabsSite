@@ -55,6 +55,8 @@ $(document).ready(function() {
 	aLangKeys['en']['aboutus25']='Thermo of Mate';
 	aLangKeys['en']['aboutus26']='Beers';
 	aLangKeys['en']['aboutus27']='Chess Game';
+	aLangKeys['en']['aboutus28']='How';
+	aLangKeys['en']['aboutus29']='We Do';
 	aLangKeys['en']['serviceTitle1']='Development';
 	aLangKeys['en']['serviceTitle2']='Web Application';
 	aLangKeys['en']['serviceTitle3']='Responsive Design';
@@ -174,6 +176,8 @@ $(document).ready(function() {
 	aLangKeys['es']['aboutus25']='Termos de Mate';
 	aLangKeys['es']['aboutus26']='Cervezas';
 	aLangKeys['es']['aboutus27']='Ajedrez';
+	aLangKeys['es']['aboutus28']='Como';
+	aLangKeys['es']['aboutus29']='Lo Hacemos';
 	aLangKeys['es']['serviceTitle1']='Desarrollo';
 	aLangKeys['es']['serviceTitle2']='Aplicaciones Web';
 	aLangKeys['es']['serviceTitle3']='Diseños Modernos';

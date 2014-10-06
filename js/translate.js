@@ -4,8 +4,6 @@ $(document).ready(function() {
 	aLangKeys['es']=new Array();
 
 	//English
-	
-	
 	aLangKeys['en']['home']='Home';
 	aLangKeys['en']['aboutUs']='About Us';
 	aLangKeys['en']['team']='Team';
@@ -125,8 +123,17 @@ $(document).ready(function() {
 	aLangKeys['en']['phrase2']='Good programmers use their brains, but good guidelines save us having to think out every case.';
 	aLangKeys['en']['phrase3']='You can’t have great software without a great team, and most software teams behave like dysfunctional families.';
 
-//Spanish
-	
+	aLangKeys['en']['howWeDo1']='Individuals and interactions';
+	aLangKeys['en']['howWeDo2']='over processes and tools';
+	aLangKeys['en']['howWeDo3']='Working software';
+	aLangKeys['en']['howWeDo4']='over comprehensive documentation';
+	aLangKeys['en']['howWeDo5']='Customer collaboration';
+	aLangKeys['en']['howWeDo6']='over contract negotiation';
+	aLangKeys['en']['howWeDo7']='Responding to change';
+	aLangKeys['en']['howWeDo8']='over following a plan';
+                           
+
+	//Spanish
 	aLangKeys['es']['home']='Principal';
 	aLangKeys['es']['aboutUs']='Sobre nosotros';
 	aLangKeys['es']['team']='Nosotros';
@@ -246,6 +253,14 @@ $(document).ready(function() {
 	aLangKeys['es']['phrase2']='Los buenos programadores usan sus cerebros, pero buenas pautas a ahorrar nosotros tener que pensar en todos los casos.';
 	aLangKeys['es']['phrase3']='No se puede tener un gran software sin un gran equipo, y la mayoría de los equipos de software se comportan como familias disfuncionales.';
 
+	aLangKeys['es']['howWeDo1']='Individuos e interacciones';
+	aLangKeys['es']['howWeDo2']='sobre procesos y herramientas';
+	aLangKeys['es']['howWeDo3']='Software funcionando';
+	aLangKeys['es']['howWeDo4']='sobre documentación detallada';
+	aLangKeys['es']['howWeDo5']='Colaboración con el cliente';
+	aLangKeys['es']['howWeDo6']='sobre negociación de contratos';
+	aLangKeys['es']['howWeDo7']='Respuesta a los cambios';
+	aLangKeys['es']['howWeDo8']='sobre seguimientos de un plan';
 
 
     $('.lang').click( function() {
